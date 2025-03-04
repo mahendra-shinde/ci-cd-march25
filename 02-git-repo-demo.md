@@ -23,8 +23,9 @@
     mvn -version
     ```
 2. Generate a new Maven project using the following command:
+
     ```sh
-    mvn archetype:generate -DgroupId=com.example -DartifactId=demo-1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+    mvn archetype:generate -DgroupId=com.example -DartifactId=myapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
     ```
 
 Your local repository `demo-1` now contains a basic Maven project structure.
