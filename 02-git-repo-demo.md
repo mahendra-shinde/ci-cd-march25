@@ -35,3 +35,11 @@ Your local repository `demo-1` now contains a basic Maven project structure.
     ```bash
     code /c/git-demos/demo-1
     ```
+
+1.  Add the newly created maven project to git "stage" (index)
+
+    ```bash
+    git status          # Check the status of GIT repository
+    git add myapp/      # Add directory myapp with all its contents to "Staging Area"/"Index"
+    git commit -m "New maven project created" # Commit the "stagged" changes
+    ```
