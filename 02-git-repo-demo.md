@@ -22,10 +22,16 @@
     ```sh
     mvn -version
     ```
-2. Generate a new Maven project using the following command:
+1. Generate a new Maven project using the following command:
 
     ```sh
     mvn archetype:generate -DgroupId=com.example -DartifactId=myapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
     ```
 
 Your local repository `demo-1` now contains a basic Maven project structure.
+
+1. Verify the project created using VSCode editor.
+
+    ```bash
+    code /c/git-demos/demo-1
+    ```
