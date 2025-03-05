@@ -66,7 +66,7 @@ Build-Steps:
 
 Post-Build-Steps:
   Archive-the-Artifacts:
-    Files: target/*.war
+    Files: target/*.jar
   Publish-JUnit-test-result-report:
      Test-Reports-XML: target/surefire-reports/TEST-*.xml
 
