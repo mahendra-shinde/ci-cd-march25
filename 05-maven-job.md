@@ -2,6 +2,10 @@
 
 ## Basic Configuration
 
+1. Create a new Jenkins `Freestyle Job` with name `job-2`
+
+2. Use following configuration for job:
+
 ```yaml
 General:
   Description: Sample Java Project
@@ -19,7 +23,10 @@ Build-Steps:
 Save the configuration and just wait for 2 minutes for build to trigger
 Once build is finished, check `Console Output` and `Workspace`
 
+
 ## Collect The artifacts
+
+1. Create a new jenkins `Freestyle Job` with name `job-3` and use following configuration.
 
 ```yaml
 General:
