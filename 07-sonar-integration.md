@@ -1,5 +1,13 @@
 ### Steps to Integrate Jenkins with SonarCloud for Java Project Scanning
 
+### Step 0 : Sign up for FREE SonarQube Cloud Account
+
+1. Navigate to SonarCloud sign up page at https://www.sonarsource.com/products/sonarcloud/signup/
+
+2. Click on `GitHub` (Signup using Github Account).
+3. Enter your github credentials and then click on Login. 
+4. Click on `Authorize SonarQube Cloud` to Access GitHub.
+
 #### Step 1: Install SonarQube Scanner for Jenkins Plugin
 1. Navigate to **Manage Jenkins** → **Plugin Manager** → **Available Plugins**.
 2. Search for **SonarQube Scanner for Jenkins** and install it.
