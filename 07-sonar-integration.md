@@ -7,6 +7,17 @@
 2. Click on `GitHub` (Signup using Github Account).
 3. Enter your github credentials and then click on Login. 
 4. Click on `Authorize SonarQube Cloud` to Access GitHub.
+5. After Successful signup, create a new `organization` manually. 
+    In right top corner, there is `+` button which would open context menu with two options: `create project` and `create organization`
+6. Click on `Create Manually` and then provide unique name and choose `Free` plan
+7. click `Create` button.
+8. Click on `Analyze new project` -> provide a display name for project, visibility should be `Public`. click `Next`
+9. Choose `Number of days` for code compare. click `Create Project` button.
+10. Click on `Other CI` and then choose `Maven`
+11. Keep this page open for configuration in jenkins.
+
+    > You need sonar_token and maven properties config
+
 
 #### Step 1: Install SonarQube Scanner for Jenkins Plugin
 1. Navigate to **Manage Jenkins** → **Plugin Manager** → **Available Plugins**.
